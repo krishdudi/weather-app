@@ -5,7 +5,7 @@ import '../App.css'
 
 
 const Form = () => {
-    const API_KEY = "1773d81f0f26d82d43ef9414db5dc4b0"
+    const API_KEY = "1773d81f0f26d82d43ef9414db5dc4b0";
     const [weather, setWeather] = useState([]);
     const [city, setCity] = useState('');
     const [country, setCountry] = useState('');
