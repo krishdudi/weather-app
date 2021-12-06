@@ -25,6 +25,7 @@ const Weather = (props) => {
     let weat;
     if (main === 'Clouds') {
         weat = <WiCloudy size={150} />;
+        
     } else if (main === 'Rain') {
         weat = <WiRain size={150} />;
     } else if (main === 'Snow') {
